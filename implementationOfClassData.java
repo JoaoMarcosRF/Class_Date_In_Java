@@ -26,7 +26,7 @@ public class implementationOfClassData {
 
         System.out.println("Datas informadas: ");
         for (int i = 0 ; i < rangeOfDates ; i++ ) {
-            datas[i].exibirData();
+            System.out.println(datas[i].showDate());
         }
 
         input.close();
